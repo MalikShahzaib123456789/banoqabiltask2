@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-bar{
+    background-color: red;
+    border-radius: 40px;
+    width: 100%;
+
+}
+.nav-bar li{
+    float: left;
+    list-style:none ;
+  margin-left: 120px;
+  padding: 20px;
+}
+.nav-bar ul{
+    overflow: auto;
+    margin: auto;
+}
+.nav-bar ul  a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover{
+    background-color: pink;
+}
